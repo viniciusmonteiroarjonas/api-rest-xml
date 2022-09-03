@@ -1,0 +1,46 @@
+{
+	"id": "d75cb688-2fc9-6ffb-0dab-c9d535209f9f",
+	"name": "api-rest-xml",
+	"description": "",
+	"order": [
+		"89786504-6e97-0155-cf31-077ca2258643"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1662166580261,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "89786504-6e97-0155-cf31-077ca2258643",
+			"headers": "Content-Type: text/xml\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "text/xml",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/contrata/produto",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d75cb688-2fc9-6ffb-0dab-c9d535209f9f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Contrata Produto",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1662166592889,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "<user>\n  <id>1</id>\n  <firstName>Vinicius</firstName>\n  <lastName>Monteiro</lastName>\n</user>"
+		}
+	]
+}

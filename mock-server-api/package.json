@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-xml-bodyparser": "^0.3.0",
+    "http": "^0.0.1-security",
+    "object-to-xml": "^2.0.0",
+    "xml": "^1.0.1"
+  }
+}
